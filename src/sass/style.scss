@@ -1,0 +1,247 @@
+/* variables */
+$min-width: 320px;
+$max-width: 680px;
+$typeface: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, Arial, sans-serif;
+
+/* link colors */
+$color-body-text: #444;
+$color-link: darkcyan;
+$color-link-hover: mediumturquoise;
+$color-link-visited: darkblue;
+
+/* html elements */
+*,
+::before,
+::after {
+  box-sizing: content-box;
+}
+
+html {
+  cursor: default; // Use the default cursor in all browsers
+  font-size: 16px;
+  font-family: $typeface;
+  color: $color-body-text;
+  -webkit-tap-highlight-color: transparent;  // Remove the grey highlight on links in iOS
+  -ms-text-size-adjust: 100%; // Prevent adjustments of font size after orientation changes
+  -webkit-text-size-adjust: 100%; // Prevent adjustments of font size after orientation changes
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2.625rem;
+  margin: 1em 0 0.5em;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 1.3125em 0 0.65625em;
+  line-height: 1.5;
+
+  h1 + & {
+    margin: 0.65625em 0;
+  }
+}
+
+h3 {
+  font-size: 1.625rem;
+  margin: 1.615384616em 0 0.807692308em;
+  line-height: 1.6;
+
+  h2 + & {
+    margin: 0.807692308em 0;
+  }
+}
+
+h4 {
+  font-size: 1.125rem;
+  margin: 2.333333334em 0 1.166666667em;
+  line-height: 2;
+
+  h3 + & {
+    margin: 1.166666667em 0;
+  }
+}
+
+p {
+  font-size: 1.0625rem;
+  margin: 1em 0;
+  line-height: 2.1;
+}
+
+ul, ol {
+  font-size: 1.0625rem;
+  margin: 1.6em 0;
+  line-height: 1.7;
+
+  ul, ol {
+    margin: 1em 0 1.4em;
+  }
+
+  ul {
+    padding: 0 0 0 1.4em;
+  }
+  ol {
+    padding: 0 0 0 1.6em;
+  }
+}
+
+ul {
+  padding: 0 0 0 2.1em;
+
+  li {
+    padding: 0 0 0 0.2em;
+  }
+}
+
+li {
+  margin: 0 0 0.8em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin: 1em 0;
+}
+
+blockquote {
+  margin: 2.6em 0;
+  padding: 2.2em;
+  background: #eee;
+
+  & > :first-child {
+    margin-top: 0;
+  }
+  & > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+dl {
+  font-size: 1.0625rem;
+  margin: 1.8em 0;
+  line-height: 1.7;
+  display: flex;
+  flex-wrap: wrap;
+
+  & > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+dt {
+  font-weight: 700;
+  margin: 0 0 1em;
+  flex: 1 1 24%;
+
+  &:last-of-type {
+    margin: 0;
+  }
+}
+
+dd {
+  margin: 0 0 1em 2em;
+  flex: 1 1 calc(76% - 2em);
+}
+
+figure {
+  margin: 1.8em 0;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1.0625rem;
+  margin: 1em 0;
+  line-height: 2;
+}
+
+hr {
+  margin: 3.75rem 0;
+  padding: 0;
+  border: 1px dashed #ddd;
+}
+
+/* inline text semantic */
+a {
+  background-color: transparent; // Remove the gray background on active links in IE 10.
+  color: $color-link;
+
+  &:hover {
+    color: $color-link-hover;
+  }
+
+  &:visited {
+    color: $color-link-visited;
+  }
+}
+
+abbr[title] {
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+b, strong { font-weight: 800; }
+
+cite {
+  font-style: normal;
+}
+
+code {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  background: #555;
+  color: #eee;
+  padding: 0.3rem 0.5rem;
+  margin: 0 0.2rem;
+  border-radius: 6px;
+}
+
+small {
+  font-size: 80%;
+}
+
+/* table */
+table {
+  border-collapse: collapse;
+  font-size: 1.0625rem;
+  margin: 1em 0;
+  line-height: 2;
+  width: 100%;
+  border-left: solid 1px #aaa;
+  border-top: solid 1px #aaa;
+}
+
+th, td {
+    border-right: solid 1px #aaa;
+    border-bottom: solid 1px #aaa;
+    padding: 0.625rem;
+    vertical-align: top;
+
+    *:last-child {
+        margin-bottom: 0;
+    }
+}
+
+th,
+thead td {
+    text-align: left;
+    background: #333;
+    color: #fff;
+}
+
+td {
+    background: #fff;
+}
+
+tfoot td,
+tfoot th {
+    background: #eee;
+    font-weight: bold;
+}
