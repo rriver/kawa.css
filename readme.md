@@ -1,6 +1,27 @@
 # kawa.css
 クラスレス（class-less）で使えるデモページ作成用の簡易CSSフレームワーク。
 
+## ファイル構成
+- ソースファイルはすべて`src`ディレクトリに入ってます。
+- スタイルはSassを使って書いています。
+- HTML要素にあてているベースのスタイルは[src/sass/foundation/_base.scss](src/sass/foundation/_base.scss)に書いてあります。
+
+```
+├── css
+│   └── style.css
+├── sass
+│   ├── foundation
+│   │   └── _base.scss
+│   ├── global
+│   │   ├── _index.scss
+│   │   ├── _mixin-fluid-type.scss
+│   │   └── _variables.scss
+│   └── style.scss
+├── elements.html
+├── flexible-typesize.html
+└── index.html
+```
+
 ## サンプルページ
 ### 日本語
 - [ページ構成要素一覧](src/elements.html)
