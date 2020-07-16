@@ -2,7 +2,7 @@
 クラスレス（class-less）で使えるデモページ作成用の簡易CSSフレームワーク。
 
 ## ファイル構成
-- ソースファイルはすべて `src` ディレクトリに入ってます。
+- ソースファイルはすべてsrcディレクトリに入ってます。
 - スタイルはSassを使って書いています。
 - HTML要素にあてているベースのスタイルは[src/sass/foundation/_base.scss](src/sass/foundation/_base.scss)に書いてあります。
 - ウィンドウ幅に合わせて文字サイズをフレキシブルに変更するレスポンシブ・タイプのMixin（[_mixin-fluid-type.scss](src/sass/global/_mixin-fluid-type.scss)）を使っています。
