@@ -2,9 +2,13 @@
 クラスレス（class-less）で使えるデモページ作成用の簡易CSSフレームワーク。
 
 ## ファイル構成
-- ソースファイルはすべて`src`ディレクトリに入ってます。
+- ソースファイルはすべて `src` ディレクトリに入ってます。
 - スタイルはSassを使って書いています。
 - HTML要素にあてているベースのスタイルは[src/sass/foundation/_base.scss](src/sass/foundation/_base.scss)に書いてあります。
+- ウィンドウ幅に合わせて文字サイズをフレキシブルに変更するレスポンシブ・タイプのMixin（[_mixin-fluid-type.scss](src/sass/global/_mixin-fluid-type.scss)）を使っています。
+- Sassは[@useを使った新しいモジュールシステム](https://parashuto.com/rriver/development/sass-module-system-from-import-to-use)で記述しています。
+
+### srcディレクトリの構成
 
 ```
 ├── css
