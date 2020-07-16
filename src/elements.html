@@ -8,7 +8,12 @@
 <style>
 .container {
   max-width: 680px;
-  margin: 0 auto;
+  margin: 0 1rem;
+}
+@media screen and (min-width: 712px){
+  .container {
+    margin: 0 auto;
+  }
 }
 </style>
 </head>
@@ -16,7 +21,7 @@
   <main>
     <div class="container">
       <h1>HTML要素のスタイル一覧</h1>
-      <p>class指定なしのHTML要素のスタイル。とりあえず、このCSSを当てておけば読みやすくなるよというスタイル。使用頻度の低そうな要素は抜けてるので要注意。</p>
+      <p>使用頻度が高そうなHTML要素にスタイルをあてています。使用頻度が低そうな要素は入っていないので要注意。※レスポンシブ対応はまだできていません。</p>
       <ol>
         <li><a href="#sec01">見出しと本文のレイアウトの確認</a></li>
         <li><a href="#sec02">見出しを連続で記述した場合のレイアウトの確認</a></li>
