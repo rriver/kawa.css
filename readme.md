@@ -1,6 +1,11 @@
 # kawa.css
 クラスレス（class-less）で使えるデモページ作成用の簡易CSSフレームワーク。
 
+## シンプルなスタイルです
+こんな感じのすごくシンプルなスタイルですが、日本語が読みやすいように、見出しや文字サイズ、行間などを細かく設定しています。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">スタイルを読み込めばブラウザのデフォルトスタイルをもう少し読みやすく調整してくれるノークラス（no-class）またはクラスレス（classless）のスタイルコレクションを作ってみてる<br><br>添付の動画はサンプルページをスクロースしているものをキャプチャしたもの <a href="https://t.co/QrVkeub2uO">pic.twitter.com/QrVkeub2uO</a></p>&mdash; RYO@Rriver (@rriver) <a href="https://twitter.com/rriver/status/1283312011447635968?ref_src=twsrc%5Etfw">July 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## ファイル構成
 - ソースファイルはすべてsrcディレクトリに入ってます。
 - スタイルはSassを使って書いています。
