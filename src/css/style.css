@@ -7,7 +7,7 @@
 html {
   cursor: default;
   font-size: 16px;
-  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, Arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, Verdana, Arial, sans-serif;
   color: #444;
   -webkit-tap-highlight-color: transparent;
   -ms-text-size-adjust: 100%;
