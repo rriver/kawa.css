@@ -36,6 +36,9 @@
 - [ページ構成要素一覧](src/elements.html)
 - [フレキシブルなタイプサイズの検証](src/flexible-typesize.html)
 
+### English
+- [A List of HTML Element Styles](src/elements-en.html)
+
 ## フォントサイズ・チャート
 || h1 | h2 | h3 | h4 | p |
 |--|:--:|:--:|:--:|:--:|:--:|

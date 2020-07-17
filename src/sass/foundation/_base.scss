@@ -148,6 +148,10 @@ p {
   @include g.fluid-type(font-size, g.$width-min, g.$width-max, g.$font-size-base-min, g.$font-size-base-max);
   margin: 1em 0;
   line-height: 2.1;
+
+  // html[lang="en"] & {
+  //   line-height: 1.8;
+  // }
 }
 
 pre {
