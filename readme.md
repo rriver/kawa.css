@@ -43,7 +43,7 @@
 | Max | 2.625rem<br>(42px) | 2rem<br>(32px) | 1.625rem<br>(26px) | 1.125rem<br>(18px) | 1.0625rem<br>(17px) |
 
 ## section要素
-コンテンツ・ブロックをsection要素で囲むことで最大幅680pxで中央寄せのカラムになります。
+コンテンツ・ブロックをsection要素で囲むことで最大幅680pxで中央寄せのカラムになります。幅は[src/sass/global/_variables.scss](src/sass/global/_variables.scss)の$width-max-contentで変更可能。
 
 ## ToDo
 - ブラウザテスト（すみません、まだMac Chrome、Firefox、Safariでしか見てません！）
