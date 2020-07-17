@@ -30,16 +30,6 @@ body {
   margin: 0;
 }
 
-section {
-  max-width: g.$width-max-content;
-  margin: 0 1em;
-}
-@media screen and (min-width: #{g.$width-max-content + 2em}){
-  section {
-    margin: 0 auto;
-  }
-}
-
 
 // ============================================================
 // Content sectioning
@@ -82,6 +72,16 @@ h4 {
 
   h3 + & {
     margin: 1.166666667em 0;
+  }
+}
+
+section {
+  max-width: g.$width-max-content;
+  margin: 0 1em;
+}
+@media screen and (min-width: #{g.$width-max-content + 2em}){
+  section {
+    margin: 0 auto;
   }
 }
 
