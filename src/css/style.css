@@ -19,11 +19,11 @@ body {
 }
 
 section {
-  max-width: 680px;
-  margin: 0 1rem;
+  max-width: 42.5em;
+  margin: 0 1em;
 }
 
-@media screen and (min-width: 712px) {
+@media screen and (min-width: 44.5em) {
   section {
     margin: 0 auto;
   }
