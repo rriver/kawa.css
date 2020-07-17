@@ -39,8 +39,8 @@
 ## フォントサイズ・チャート
 || h1 | h2 | h3 | h4 | p |
 |--|:--:|:--:|:--:|:--:|:--:|
-| Min | 2rem<br>(32px) | 1.764705882rem<br>(28.235294112px) | 1.433823529rem<br>(22.941176464px) | 0.992647059rem<br>(15.882352944px) | 0.9375rem<br>(15px) |
 | Max | 2.625rem<br>(42px) | 2rem<br>(32px) | 1.625rem<br>(26px) | 1.125rem<br>(18px) | 1.0625rem<br>(17px) |
+| Min | 2rem<br>(32px) | 1.764705882rem<br>(28.235294112px) | 1.433823529rem<br>(22.941176464px) | 0.992647059rem<br>(15.882352944px) | 0.9375rem<br>(15px) |
 
 ## section要素
 コンテンツ・ブロックをsection要素で囲むことで最大幅680pxで中央寄せのカラムになります。幅は[src/sass/global/_variables.scss](src/sass/global/_variables.scss)の$width-max-contentで変更可能。
