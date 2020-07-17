@@ -18,16 +18,6 @@ body {
   margin: 0;
 }
 
-section {
-  max-width: 42.5em;
-  margin: 0 1em;
-}
-
-@media screen and (min-width: 44.5em) {
-  section {
-    margin: 0 auto;
-  }
-}
 main {
   display: block;
 }
@@ -36,6 +26,7 @@ h1 {
   font-size: 2rem;
   margin: 1em 0 0.5em;
   line-height: 1.4;
+  color: #444;
 }
 @media (min-width: 20em) {
   h1 {
@@ -52,6 +43,7 @@ h2 {
   font-size: 1.764705882rem;
   margin: 1.3125em 0 0.65625em;
   line-height: 1.5;
+  color: #444;
 }
 @media (min-width: 20em) {
   h2 {
@@ -71,6 +63,7 @@ h3 {
   font-size: 1.433823529rem;
   margin: 1.615384616em 0 0.807692308em;
   line-height: 1.6;
+  color: #444;
 }
 @media (min-width: 20em) {
   h3 {
@@ -90,6 +83,7 @@ h4 {
   font-size: 0.992647059rem;
   margin: 2.333333334em 0 1.166666667em;
   line-height: 2;
+  color: #444;
 }
 @media (min-width: 20em) {
   h4 {
@@ -105,6 +99,16 @@ h3 + h4 {
   margin: 1.166666667em 0;
 }
 
+section {
+  max-width: 42.5em;
+  margin: 0 1em;
+}
+
+@media screen and (min-width: 44.5em) {
+  section {
+    margin: 0 auto;
+  }
+}
 blockquote {
   margin: 2.6em 0;
   padding: 2.2em;
