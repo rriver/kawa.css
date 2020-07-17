@@ -50,14 +50,12 @@ main {
 }
 
 h1 {
-  // font-size: 2.625rem;
   @include g.fluid-type(font-size, g.$width-min, g.$width-max, 2rem, 2.625rem);
   margin: 1em 0 0.5em;
   line-height: 1.4;
 }
 
 h2 {
-  // font-size: 2rem;
   @include g.fluid-type(font-size, g.$width-min, g.$width-max, 1.764705882rem, 2rem);
   margin: 1.3125em 0 0.65625em;
   line-height: 1.5;
@@ -68,7 +66,6 @@ h2 {
 }
 
 h3 {
-  font-size: 1.625rem;
   @include g.fluid-type(font-size, g.$width-min, g.$width-max, 1.433823529rem, 1.625rem);
   margin: 1.615384616em 0 0.807692308em;
   line-height: 1.6;
@@ -79,7 +76,6 @@ h3 {
 }
 
 h4 {
-  // font-size: 1.125rem;
   @include g.fluid-type(font-size, g.$width-min, g.$width-max, 0.992647059rem, 1.125rem);
   margin: 2.333333334em 0 1.166666667em;
   line-height: 2;
