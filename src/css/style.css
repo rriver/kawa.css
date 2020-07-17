@@ -279,6 +279,10 @@ code {
   }
 }
 
+mark {
+  background: linear-gradient(transparent 50%, #F9EA93 50%);
+}
+
 small {
   font-size: 80%;
 }
