@@ -18,6 +18,16 @@ body {
   margin: 0;
 }
 
+section {
+  max-width: 680px;
+  margin: 0 1rem;
+}
+
+@media screen and (min-width: 712px) {
+  section {
+    margin: 0 auto;
+  }
+}
 main {
   display: block;
 }
