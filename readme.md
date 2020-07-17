@@ -41,10 +41,19 @@
 - [A List of HTML Element Styles](src/elements-en.html)
 
 ## フォントサイズ・チャート
+### 日本語
 || h1 | h2 | h3 | h4 | p |
 |--|:--:|:--:|:--:|:--:|:--:|
 | Max | 2.625rem<br>(42px) | 2rem<br>(32px) | 1.625rem<br>(26px) | 1.125rem<br>(18px) | 1.0625rem<br>(17px) |
 | Min | 2rem<br>(32px) | 1.764705882rem<br>(28.235294112px) | 1.433823529rem<br>(22.941176464px) | 0.992647059rem<br>(15.882352944px) | 0.9375rem<br>(15px) |
+
+### English
+英語版はh4要素だけサイズが異なります。
+
+|| h4 |
+|--|:--:|
+| Max | 1.25rem<br>(20px) |
+| Min | 1.102941176rem<br>(17.647058816px) |
 
 ## section要素
 コンテンツ・ブロックをsection要素で囲むことで最大幅680pxで中央寄せのカラムになります。幅は[src/sass/global/_variables.scss](src/sass/global/_variables.scss)の$width-max-contentで変更可能。
