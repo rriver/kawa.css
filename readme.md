@@ -27,6 +27,7 @@
 │   │   └── _variables.scss
 │   └── style.scss
 ├── elements.html
+├── elements-en.html
 ├── flexible-typesize.html
 └── index.html
 ```
