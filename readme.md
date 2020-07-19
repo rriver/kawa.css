@@ -1,4 +1,7 @@
 # kawa.css
+
+![kawa.css](src/img/kawacss-logo.svg)
+
 クラスレス（class-less）で使えるデモページ作成用の簡易CSSフレームワーク。
 
 ※まだ最新版のMac Chrome、Firefox、Safariでしか確認できてません！
