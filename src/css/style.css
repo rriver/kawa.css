@@ -153,7 +153,9 @@ dt:last-of-type {
 
 dd {
   margin: 0 0 1em 2em;
-  flex: 1 1 calc(76% - 2em);
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: calc(76% - 2em);
 }
 
 figure {
