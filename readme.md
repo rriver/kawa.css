@@ -71,6 +71,11 @@
 - ローカルナビーゲーション（aside）の追加
 - レスポンシブ対応
 - 抜けている要素のスタイルの追加
+  - summary/details
+  - image with a caption
+  - table caption
+  - focus style
+  - pre > code block
 - フォーム要素のスタイルの追加
 - 英語版の追加
 - Themeableにする（クラスあり？Sassで？）
