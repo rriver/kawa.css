@@ -18,8 +18,25 @@ body {
   margin: 0;
 }
 
-main {
-  display: block;
+footer {
+  margin: 4em 0 2em;
+  padding: 1em 0 0;
+  border-top: 1px solid #bbb;
+  text-align: center;
+}
+footer nav > ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+footer nav > ul li {
+  padding: 1em;
+  margin: 0;
+}
+footer nav > ul a {
+  text-decoration: none;
 }
 
 h1 {
@@ -97,6 +114,55 @@ h4 {
 }
 h3 + h4 {
   margin: 1.166666667em 0;
+}
+
+header {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+header img {
+  width: auto;
+}
+
+body > nav {
+  border-bottom: 1px solid #bbb;
+}
+body > nav > ul {
+  padding: 0;
+  margin: 0.5em 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+body > nav > ul li {
+  padding: 0;
+  margin: 0;
+}
+body > nav > ul a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.375em 1.125em;
+}
+body > nav > ul a:hover {
+  background: #eee;
+  border-radius: 0.5em;
+  color: darkcyan;
+}
+body > nav > ul a:focus {
+  background: #eee;
+  border-radius: 0.5em;
+  border: 0.125em solid darkcyan;
+  padding: 0.25em 1em;
+  outline: none;
+}
+
+main {
+  display: block;
+}
+nav + main {
+  margin-top: 4em;
 }
 
 section {
@@ -244,9 +310,6 @@ a {
 a:hover {
   color: mediumturquoise;
 }
-a:visited {
-  color: darkblue;
-}
 
 abbr[title] {
   text-decoration: underline;
@@ -340,6 +403,15 @@ tfoot td,
 tfoot th {
   background: #eee;
   font-weight: bold;
+}
+
+summary {
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+details {
+  margin: 1em 0;
 }
 
 html[lang=en] h1, html[lang=en] h2, html[lang=en] h3, html[lang=en] h4 {
