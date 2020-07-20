@@ -253,8 +253,9 @@ p {
 pre {
   font-family: monospace, monospace;
   font-size: 0.9375rem;
-  margin: 1em 0;
+  margin: 2em 0;
   line-height: 2;
+  overflow-x: auto;
 }
 @media (min-width: 20em) {
   pre {
@@ -329,8 +330,8 @@ code {
   font-size: 0.9375rem;
   background: #555;
   color: #eee;
-  padding: 0.3rem 0.5rem;
-  margin: 0 0.2rem;
+  padding: 0.3em 0.5em;
+  margin: 0 0.2em;
   border-radius: 6px;
 }
 @media (min-width: 20em) {
@@ -342,6 +343,15 @@ code {
   code {
     font-size: 1.0625rem;
   }
+}
+pre > code {
+  display: inline-block;
+  overflow-x: visible;
+  min-width: 100%;
+  line-height: 1.5;
+  padding: 1em;
+  margin: 0;
+  background: #222;
 }
 
 mark {
