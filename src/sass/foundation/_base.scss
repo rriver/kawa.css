@@ -40,7 +40,7 @@ body {
 // ============================================================
 
 footer {
-  margin: 4em 0 2em;
+  margin: 5em 0 2em;
   padding: 1em 0 0;
   border-top: 1px solid g.$color-border;
   text-align: center;
@@ -115,6 +115,7 @@ header {
 
 body > nav {
   border-bottom: 1px solid g.$color-border;
+  margin-bottom: 5em;
 
   & > ul {
     padding: 0;
