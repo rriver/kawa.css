@@ -18,6 +18,62 @@ body {
   margin: 0;
 }
 
+article {
+  display: flex;
+  justify-content: center;
+  margin: 0 1rem;
+}
+article > section {
+  flex: 1 1 auto;
+  margin: 0;
+}
+article > section :first-child {
+  margin-top: 0;
+}
+article > aside {
+  flex: 0 0 17.5rem;
+  padding-left: 2.5rem;
+}
+article > aside :first-child {
+  margin-top: 0;
+}
+article > aside h2 {
+  font-size: 0.992647059rem;
+  background: darkcyan;
+  border-radius: 0.5rem 0.5rem 0 0;
+  color: #fff;
+  padding: 0.625rem 0.75rem;
+  margin: 0;
+  line-height: 1.4;
+}
+@media (min-width: 20em) {
+  article > aside h2 {
+    font-size: calc(0.992647059rem + 0.132352941 * (100vw - 20em) / 55);
+  }
+}
+@media (min-width: 75em) {
+  article > aside h2 {
+    font-size: 1.125rem;
+  }
+}
+article > aside nav ul {
+  margin: 0;
+  padding: 1rem;
+  background: #eee;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+article > aside nav ul li {
+  line-height: 1.5;
+  margin: 0 0 1em;
+}
+article > aside nav ul li::before {
+  width: 0;
+  border: none;
+}
+article > aside nav ul :last-child {
+  margin-bottom: 0;
+}
+
 footer {
   margin: 5em 0 2em;
   padding: 1em 0 0;
@@ -182,12 +238,12 @@ main nav ul a {
 
 section {
   max-width: 43.75em;
-  margin: 0 1em;
+  margin: 4em 1em;
 }
 
 @media screen and (min-width: 45.75em) {
   section {
-    margin: 0 auto;
+    margin: 4em auto;
   }
 }
 blockquote {

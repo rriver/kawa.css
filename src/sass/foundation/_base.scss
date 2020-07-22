@@ -39,6 +39,63 @@ body {
 // Content sectioning
 // ============================================================
 
+article {
+  display: flex;
+  justify-content: center;
+  margin: 0 1rem;
+
+  & > section {
+    flex: 1 1 auto;
+    margin: 0;
+
+    :first-child {
+      margin-top: 0;
+    }
+  }
+
+  & > aside {
+    flex: 0 0 17.5rem;
+    padding-left: 2.5rem;
+
+    :first-child {
+      margin-top: 0;
+    }
+
+    h2 {
+      @include g.fluid-type(font-size, g.$width-min, g.$width-max, 0.992647059rem, 1.125rem);
+      //background: #eee;
+      //border-bottom: 3px solid g.$color-link;
+      background: g.$color-link;
+      border-radius: 0.5rem 0.5rem 0 0;
+      color: #fff;
+      padding: 0.625rem 0.75rem;
+      margin: 0;
+      line-height: 1.4;
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 1rem;
+      background: #eee;
+      border-radius: 0 0 0.5rem 0.5rem;
+
+      li {
+        line-height: 1.5;
+        margin: 0 0 1em;
+
+        &::before {
+          width: 0;
+          border: none;
+        }
+      }
+
+      :last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
 footer {
   margin: 5em 0 2em;
   padding: 1em 0 0;
@@ -177,11 +234,11 @@ main {
 
 section {
   max-width: g.$width-max-content;
-  margin: 0 1em;
+  margin: 4em 1em;
 }
 @media screen and (min-width: #{g.$width-max-content + 2em}){
   section {
-    margin: 0 auto;
+    margin: 4em auto;
   }
 }
 
