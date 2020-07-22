@@ -309,13 +309,12 @@ b, strong { font-weight: 800; }
 cite { font-style: normal; }
 
 code {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
   @include g.fluid-type(font-size, g.$width-min, g.$width-max, g.$font-size-base-min, g.$font-size-base-max);
-  background: #555;
-  color: #eee;
-  padding: 0.3em 0.5em;
+  background: #eee;
+  padding: 0.25em 0.375em;
   margin: 0 0.2em;
-  border-radius: 6px;
+  border-radius: 0.375rem;
 
   pre > & {
     display: inline-block;
@@ -325,6 +324,7 @@ code {
     padding: 1em;
     margin: 0;
     background: #222;
+    color: #fff;
   }
 }
 
