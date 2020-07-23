@@ -65,10 +65,10 @@ article > aside nav ul {
 article > aside nav ul li {
   line-height: 1.5;
   margin: 0 0 1em;
+  padding: 0;
 }
 article > aside nav ul li::before {
-  width: 0;
-  border: none;
+  display: none;
 }
 article > aside nav ul :last-child {
   margin-bottom: 0;
@@ -223,10 +223,17 @@ main nav ul {
   margin-left: 0;
   padding-left: 0.625em;
 }
+main nav ul li {
+  position: relative;
+  padding-left: 1.125rem;
+}
 main nav ul li::before {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
   content: "";
   display: inline-block;
-  width: 8px;
+  width: 0;
   height: 0;
   border-top: 6px solid transparent;
   border-bottom: 6px solid transparent;

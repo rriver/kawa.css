@@ -82,10 +82,10 @@ article {
       li {
         line-height: 1.5;
         margin: 0 0 1em;
+        padding: 0;
 
         &::before {
-          width: 0;
-          border: none;
+          display: none;
         }
       }
 
@@ -216,14 +216,22 @@ main {
     margin-left: 0;
     padding-left: 0.625em;
 
-    li::before {
-      content: "";
-      display: inline-block;
-      width: 8px;
-      height: 0;
-      border-top: 6px solid transparent;
-      border-bottom: 6px solid transparent;
-      border-left: 10px solid g.$color-link;
+    li {
+      position: relative;
+      padding-left: 1.125rem;
+
+      &::before {
+        position: absolute;
+        top: 0.5rem;
+        left: 0;
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-top: 6px solid transparent;
+        border-bottom: 6px solid transparent;
+        border-left: 10px solid g.$color-link;
+      }
     }
 
     a {
