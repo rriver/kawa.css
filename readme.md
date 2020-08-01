@@ -67,14 +67,17 @@
 
 ## ToDo
 - ブラウザテスト（すみません、まだMac Chrome、Firefox、Safariでしか見てません！）
-- グローバルナビゲーション（header）の追加
-- ローカルナビーゲーション（aside）の追加
 - レスポンシブ対応
+- トップページに「Getting Started」セクションの追加
+- 「使い方」ページの追加
+- Githubリポジトリへのリンク追加
 - 抜けている要素のスタイルの追加
   - image with a caption
   - table caption
   - focus style
 - フォーム要素のスタイルの追加
+- 各要素のソースコードを追加
+- Githubリポジトリのディレクトリ構成の整理
 - 英語版の追加
 - Themeableにする（クラスあり？Sassで？）
 - Dark Modeの追加（いる？）
