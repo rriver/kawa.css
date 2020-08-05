@@ -11,7 +11,12 @@
 - [デモページ](https://kawacss.rriver.dev/)
 
 ## Getting Started
-To be written.
+kawa.cssを使いたいページの`&lt;head&gt;`で以下のCSSを読み込んでください。
+
+### HTML
+```
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rriver/kawa.css@0.1-alpha/css/style.css">
+```
 
 ## フォントサイズ・チャート
 ### 日本語
