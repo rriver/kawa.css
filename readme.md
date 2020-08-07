@@ -18,7 +18,10 @@ kawa.cssを使いたいページの`<head>`で以下のCSSを読み込んでく�
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rriver/kawa.css@0.1.1-alpha/css/kawa.min.css">
 ```
 
-## フォントサイズ・チャート
+## section要素
+コンテンツ・ブロックをsection要素で囲むことで最大幅680pxで中央寄せのカラムになります。幅は[sass/global/_variables.scss](_variables.scss)の$width-max-contentで変更可能。
+
+## レスポンシブ・フォントサイズ
 ### 日本語
 || h1 | h2 | h3 | h4 | p |
 |--|:--:|:--:|:--:|:--:|:--:|
@@ -32,9 +35,6 @@ kawa.cssを使いたいページの`<head>`で以下のCSSを読み込んでく�
 |--|:--:|
 | Max | 1.25rem<br>(20px) |
 | Min | 1.102941176rem<br>(17.647058816px) |
-
-## section要素
-コンテンツ・ブロックをsection要素で囲むことで最大幅680pxで中央寄せのカラムになります。幅は[src/sass/global/_variables.scss](src/sass/global/_variables.scss)の$width-max-contentで変更可能。
 
 ## ToDo
 - Homeに「Getting Started」セクションの追加
