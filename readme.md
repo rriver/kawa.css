@@ -15,7 +15,7 @@ kawa.cssを使いたいページの`<head>`で以下のCSSを読み込んでく�
 
 ### HTML
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rriver/kawa.css@0.1-alpha/css/kawa.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rriver/kawa.css/css/kawa.min.css">
 ```
 
 ## フォントサイズ・チャート
