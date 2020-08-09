@@ -10,13 +10,14 @@
 
 - [デモページ](https://kawacss.rriver.dev/)
 
-## Getting Started
+## 使い方
 kawa.cssを使いたいページの`<head>`で以下のCSSを読み込んでください。
 
-### HTML
 ```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rriver/kawa.css@0.1.1-alpha/css/kawa.min.css">
 ```
+
+[デモページの要素一覧](https://kawacss.rriver.dev/elements.html)のスタイルを参考に、セマンティックなHTMLでページを構成してください。
 
 ## section要素
 コンテンツ・ブロックをsection要素で囲むことで最大幅680pxで中央寄せのカラムになります。幅は[sass/global/_variables.scss](_variables.scss)の$width-max-contentで変更可能。
@@ -37,7 +38,6 @@ kawa.cssを使いたいページの`<head>`で以下のCSSを読み込んでく�
 | Min | 1.102941176rem<br>(17.647058816px) |
 
 ## ToDo
-- Homeに「Getting Started」セクションの追加
 - 「使い方」ページの追加
 - Githubリポジトリへのリンク追加
 - ブラウザテスト（すみません、まだMac Chrome、Firefox、Safariでしか見てません！）
