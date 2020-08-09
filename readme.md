@@ -20,7 +20,7 @@ kawa.cssを使いたいページの`<head>`で以下のCSSを読み込んでく�
 [デモページの要素一覧](https://kawacss.rriver.dev/elements.html)のスタイルを参考に、セマンティックなHTMLでページを構成してください。
 
 ## section要素
-コンテンツ・ブロックをsection要素で囲むことで最大幅680pxで中央寄せのカラムになります。幅は[sass/global/_variables.scss](_variables.scss)の$width-max-contentで変更可能。
+コンテンツ・ブロックをsection要素で囲むことで最大幅680pxで中央寄せのカラムになります。幅は[_variables.scss](sass/global/_variables.scss)の$width-max-contentで変更可能。
 
 ## レスポンシブ・フォントサイズ
 ### 日本語
