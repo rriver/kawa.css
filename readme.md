@@ -52,3 +52,4 @@ kawa.cssを使いたいページの`<head>`で以下のCSSを読み込んでく�
 - 英語版の追加
 - Themeableにする（クラスあり？Sassで？）
 - Dark Modeの追加（いる？）
+- Change Sass variables to CSS variables?
